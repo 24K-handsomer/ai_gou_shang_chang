@@ -1,0 +1,327 @@
+.c{
+	max-width: 1200px;
+	margin: 16px auto;
+}
+#product-body{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#product{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+#product_img{
+	width: 40%;
+	border: 1px solid #c3c1c1; 
+	float: left;
+}
+div#product_img>img {
+    margin: auto;
+}
+#product_intro{
+	width: 60%;
+	float: right;
+	padding-left:45px;
+}
+#product_intro>#title{
+	font-size: 32px;
+    padding-top: 12px;
+    padding-bottom: 32px;
+}
+#product_intro>table>tbody>tr {
+    font-size: 16px;
+    height: 45px;
+}
+#product_intro>table>tbody>tr>td:first-child{
+	width: 82px;
+}
+#product_intro>div:last-child{
+	margin-top: 40px;
+}
+.money{
+	color: #e53e69;
+    font-size: 16px; 
+}
+
+#product_jianjie{
+	width: 100%;
+	overflow: hidden;
+}
+#box_left{
+	height: auto;
+	width: 25%;
+	float: left;
+}
+#box_right{
+	float: right;
+	width: 72%;
+    margin-left: 16px;
+}
+
+
+/*推荐产品*/
+.sbox{
+	border: 1px solid #32b0ea;
+	width: 100%;
+	margin-bottom: 30px; 
+}
+.sbox>div:first-child{
+	background-color: #32b0ea;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 22px;
+    color: white;
+}
+.sbox>.sbox-product{
+	width: 100%;
+    overflow: hidden;
+    padding: 16px 12px;
+    border-bottom: 1px dashed #c5c0c0;
+}
+.sbox>.sbox-product>a{
+	display: block;
+    width: 100%;
+    overflow: hidden;
+    color: #9e9c97;
+}
+.sbox-product-left{
+	width: 40%;
+    float: left;
+    border: 1px solid #afabab;
+}
+.sbox-product-right{
+	width: 60%;
+    float: right;
+    padding-left: 14px;
+}
+.sbox-product-right>.title{
+	padding-top: 6px;
+    color: #e66383;
+}
+.sbox-product-right>.instru{
+	padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/*相关分类*/
+.sbox>ul {
+    overflow: hidden;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.sbox>ul>li {
+    float: left;
+    margin-right: 14px;
+}
+
+#myTabContent{
+	border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+#myTabContent>#home{
+	padding-top: 22px;
+}
+#myTabContent>#home>table{
+	width: 100%;
+	margin-bottom: 18px;
+	border: 1px solid #ddd;
+}
+#myTabContent>#home>table>tbody>tr>td:first-child{
+	width: 120px;
+	height: 40px;
+    text-align: center;
+    background-color: rgba(238,238,238,1.0);
+}
+#myTabContent>#home>table>tbody>tr>td:last-child{
+	padding-left: 14px;
+}
+#myTabContent>#home>table>tbody>tr{
+
+}
+
+
+/*产品说明*/
+
+#home>div>p{
+	font-size: 16px;
+}
+#home>div>p>br,#home>div>br{
+	display: none;
+}
+#home>div>p>img{
+	/*margin: 16px auto;*/
+	height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+/*相关资讯*/
+#java>div{
+	padding-top:16px; 
+	/*padding: 16px;*/
+}
+.xiangguan{
+	padding: 16px;
+    border: 1px solid #ccc6c6;
+    margin-bottom: 20px;
+}
+.xiangguan_title{
+	font-size: 18px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #989292;
+
+}
+.xiangguan_instru{
+	padding-top: 8px;
+    line-height: 22px;
+}
+.xiangguan_instru table>tbody>tr>td:first-child{
+	width: 98px;
+	text-align: center;
+}
+#catmore{
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 414px) {
+	#product-body{
+		padding: 0 14px;
+	}
+	#product_img{
+		float: none;
+    	width: 100%;
+	}
+	#product_intro{
+		float: none;
+    	width: 100%;
+    	padding: 0px;
+	}
+	#product_intro>#title {
+		text-align: center;
+    	padding-bottom: 10px;
+	}
+	#product_intro>div:last-child {
+		text-align: center;
+	    margin-top: 0px;
+	    position: fixed;
+	    bottom: 0px;
+	    width: 100%;
+	    z-index: 9999;
+	    left: 0px;
+	}
+	#product_intro>div:last-child>a>button{
+		width: 100%;
+	}
+
+	#product_intro>table>tbody>tr{
+		font-size: 12px;
+	}
+	#product_intro>table>tbody>tr>td:first-child {
+		width: 70px;
+	}
+	ul#myTab {
+	    font-size: 12px;
+	}
+
+
+	#box_left{
+		display: none;
+	    /* width: 100%; */
+	    /* float: none; */
+	}
+	#box_right{
+		float: none;
+    	width: 100%;
+    	margin-left: 0px;
+	}
+	#myTabContent{
+		padding-left: 0px;
+    	padding-right: 0px;
+    	font-size: 12px;
+	}
+
+	#myTabContent>#home>table>tbody>tr>td:first-child {
+		width: 70px;
+	}
+
+	#home>div>p {
+		font-size: 12px;
+	}
+
+	.xiangguan_instru table>tbody>tr>td:first-child{
+		width: 18%;
+		text-align: center;
+	}
+
+	/*模态窗*/
+	.modal-body{
+		padding: 0px;
+	}
+}
+
+@media (min-width: 415px) and (max-width: 765px) {
+	#product-body{
+		padding: 0 14px;
+	}
+	#product_img{
+		float: none;
+    	width: 100%;
+	}
+	#product_intro{
+		float: none;
+    	width: 100%;
+    	padding: 0px;
+	}
+	#product_intro>#title {
+		text-align: center;
+    	padding-bottom: 10px;
+	}
+	#product_intro>div:last-child {
+		text-align: center;
+	    margin-top: 0px;
+	    position: fixed;
+	    bottom: 0px;
+	    width: 100%;
+	    z-index: 9999;
+	    left: 0px;
+	}
+	#product_intro>div:last-child>a>button{
+		width: 100%;
+	}
+
+
+	#box_left{
+		display: none;
+	    /* width: 100%; */
+	    /* float: none; */
+	}
+	#box_right{
+		float: none;
+    	width: 100%;
+    	margin-left: 0px;
+	}
+	#myTabContent{
+		padding-left: 0px;
+    	padding-right: 0px;
+	}
+
+	.xiangguan_instru table>tbody>tr>td:first-child{
+		width: 18%;
+		text-align: center;
+	}
+	/*模态窗*/
+	.modal-body{
+		padding: 0px;
+	}
+}

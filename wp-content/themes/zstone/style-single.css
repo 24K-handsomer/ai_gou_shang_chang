@@ -1,0 +1,220 @@
+
+/*商品single   content的css*/
+#body{
+    width: 960px;
+    margin: 0 auto;
+}
+#product{
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border: 1px solid #e4d7d7;
+    overflow: hidden
+}
+#product_img{
+    width: 50%;
+    float: left;
+}
+#product_img>img{
+    margin: 0 auto;
+}
+#product_intro{
+    width: 50%;
+    float: right;
+    padding-top: 22px;
+}
+#product_intro>ul>li:nth-child(1){
+    font-size: 30px;
+}
+#product_intro>ul>li.jiage{
+    color: #A51F1C;
+    font-size: 14px;
+    font-weight: 600;
+}
+#product_intro>div{
+    padding-top: 20px;
+    overflow: hidden;
+}
+#product_intro>div>a{
+    display: block;
+    float: left;
+    width: 45%;
+}
+
+#product_intro>div>a>button{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: red;
+    border: 0px;
+}
+
+.nav-tabs>li>a {
+    color: black;
+}
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #b11515;
+}
+
+.modal-body>p{
+    height: 100%;
+}
+
+/*产品详情*/
+#home>div{
+    padding-top: 20px;
+    border: 1px solid #e0d2d2;
+    border-top: 0px #ffffff;
+}
+#home>div>img{
+    margin: 0 auto;
+}
+
+
+
+/*健康知识content-zhishi的css*/
+.clr{clear:both;font-size:0px;line-height:0px;height:0px;}
+.footer{text-align:center;font-size:12px;margin:30px 0;}
+
+.cat-title{padding: 10px;border: 1px solid #CFCFCF;box-shadow: 0 0 5px #C6C6C6;margin: 10px 0 0 0;font-size:12px;}
+
+#post-box{margin-top:10px;}
+.post-nav{font-size:12px;margin-top:30px;color:#999;}
+
+#page-box{margin-top:10px;}
+#page-box .post-item{width:918px;}
+.post-title{
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+}
+.post-meta{
+    float: none;
+    text-align: center;
+}
+.post-content{
+    padding-top: 18px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 373px) {
+    #body{
+        width: 100%;
+        margin: 0 0;
+    }
+    #product_img{
+        width: 100%;
+    }
+    #product_intro{
+        width: 100%;
+    }
+    #product_intro>ul{
+        text-align: center;
+    }
+    #product_intro>div{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+    }
+    #product_intro>div>a{
+        width: 100%;
+    }
+    #product_intro>div>a>button{
+        font-size: 30px;
+    }
+
+    .modal-body>p{
+        height: 100%;
+    }
+
+
+    /*产品详情*/
+    #home>div{
+        border: 0px;
+    }
+
+
+
+    /*健康知识*/
+    .post-content{
+        height: 100%;
+        overflow: hidden;
+    }
+    .post-item{
+        width: 100%;
+        padding: 14px;
+    }
+    #left-box{
+        float: none;
+        width: 100%;
+    }
+    #right-box{
+        display: none;
+    }
+    .c{
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width: 374px) and (max-width: 414px) {
+    #body{
+        width: 100%;
+        margin: 0 0;
+    }
+    #product_img{
+        width: 100%;
+    }
+    #product_intro{
+        width: 100%;
+    }
+    #product_intro>ul{
+        text-align: center;
+    }
+    #product_intro>div{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+    }
+    #product_intro>div>a{
+        width: 100%;
+    }
+    #product_intro>div>a>button{
+        font-size: 30px;
+    }
+
+    .modal-body>p{
+        height: 100%;
+    }
+
+
+    /*产品详情*/
+    #home>div{
+        border: 0px;
+    }
+
+
+
+    /*健康知识*/
+    .post-content{
+        height: 100%;
+        overflow: hidden;
+    }
+    .post-item{
+        width: 100%;
+        padding: 14px;
+    }
+    #left-box{
+        float: none;
+        width: 100%;
+    }
+    #right-box{
+        display: none;
+    }
+    .c{
+        width: 100%;
+    }
+
+}

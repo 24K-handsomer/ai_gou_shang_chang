@@ -1,0 +1,59 @@
+/*公司简介*/
+#post-box{
+	background:url(./images/page-company.jpg);
+	background-size: 100%;
+}
+.post-content{
+    font-size: 16px;
+    padding: 14px 0;
+    color: #ffffff;
+}
+
+body{
+	background: #ebebeb;
+}
+/* .cbox{
+	background: url(./images/company_bg_2.jpg);
+    background-size: 100%;
+    min-height: 609px;
+    background-repeat: no-repeat;
+}*/
+.ctitle{
+	font-size: 55px;
+    color: #e74c3c;
+}
+.ccontent{
+	/*width: 47%;*/
+    font-size: 16px;
+    line-height: 24px;
+}
+.ccontent p {
+    text-indent: 32px;
+}
+.cimg{
+	width: 25%;
+	float: right;
+}
+
+
+/*帮助与建议*/
+.comment-title {
+    text-align: center;
+    font-size: 24px;
+}
+.comment-content {
+    font-size: 16px;
+    padding: 14px 0px;
+}
+
+@media (min-width: 319px) and (max-width: 415px) {
+	.cimg{
+		width: 50%;
+	}
+}
+
+@media (min-width: 415px) and (max-width: 768px) {
+	.cimg{
+		width: 50%;
+	}
+}

@@ -1,0 +1,351 @@
+/*健康知识分类目录*/
+
+#home-loop{margin-top:10px;}
+
+.post-item{
+	overflow: hidden;
+	width: 100%;
+	padding: 18px;
+	border: 1px solid #CFCFCF;
+	box-shadow: 0 0 5px #C6C6C6;
+	/*background-image: url("images/r.png");*/
+	background-repeat: no-repeat;
+	background-position: 99% 5px;
+	margin-bottom: 20px;
+}
+
+.post-item h2 {
+font-size: 26px;
+margin: 10px 0;
+}
+.post-item h2 a{
+color: #2280DA;
+text-decoration: none;
+}
+
+.post-img{
+	float: left;
+    margin-right: 16px;
+}
+.post-content>p>img {
+    margin: 16px auto;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.post-meta
+{
+	
+  float: right;
+  font-size: 12px;
+  color: #8C8C8C;
+}
+.post-meta a, .post-meta span {
+  color: #8C8C8C;
+}
+
+#left-box{float:left;width:74%;}
+#right-box{float:left;width:24%;margin:10px 0 0 10px;}
+.posts_nav_link{font-size:12px;text-align:center;}
+.posts_nav_link a{text-decoration:none;}
+
+.sbox{padding: 10px;border: 1px solid #CFCFCF;box-shadow: 0 0 5px #C6C6C6;margin-bottom: 10px;font-size:12px;}
+.sbox h2 {
+  border-left: 4px solid #3780D3;
+  height: 26px;
+  line-height: 26px;
+  padding-left: 15px;
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.sbox ul{
+	padding-left: 25px;
+}
+
+.c{clear:both;max-width:1200px;margin:0 auto;display:block;overflow: hidden;}
+
+
+/*健康知识content-zhishi的css*/
+.clr{clear:both;font-size:0px;line-height:0px;height:0px;}
+.footer{text-align:center;font-size:12px;margin:30px 0;}
+
+.cat-title{padding: 10px;border: 1px solid #CFCFCF;box-shadow: 0 0 5px #C6C6C6;margin: 10px 0 0 0;font-size:12px;}
+
+#post-box{margin-top:10px;}
+.post-nav{font-size:12px;margin-top:30px;color:#999;}
+
+#page-box{margin-top:10px;}
+#page-box .post-item{width:918px;}
+.post-title{
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+}
+.post-meta{
+    float: none;
+    text-align: center;
+}
+.post-content{
+    padding-top: 5px;
+}
+.post-content table>tbody>tr>td:first-child {
+    width: 100px;
+    text-align: center;
+}
+.post-hre{
+  text-align: center;
+}
+
+
+/*热门文章*/
+.widget {
+    clear: both;
+    margin-bottom: 20px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    font-size: 14px;
+}
+.widget-top {
+    padding: 5px 0;
+}
+.widget-top h4 {
+    font-size: 20px;
+    margin: 16px 20px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+    font-family: Arial,"Microsoft YaHei","WenQuanYi Micro Hei","Open Sans","Hiragino Sans GB",Verdana,sans-serif;
+}
+.widget-container {
+  font-size: 14px;
+    padding: 20px;
+}
+.widget-container li {
+    line-height: 18px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.widget-container li a{
+  color: #444;
+    text-decoration: none;
+}
+.widget-container li a:hover{
+  color: red;
+  font-size: 16px;
+}
+
+
+/*相关分类*/
+#tabbed-widget .tabs-wrap.tagcloud {
+    font-size: 0;
+    /*padding-top: 18px;*/
+}
+.tabs-wrap, .cat-tabs-wrap {
+    clear: both;
+}
+#tabbed-widget .tabs-wrap.tagcloud a {
+    padding: 6px 8px;
+    background: #f3f5f5;
+    border: 1px solid #FFFFFF;
+    display: inline-block;
+    margin: 0 4px 4px 0;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    transition-duration: .3s;
+    
+    color: #444;
+    text-decoration: none;
+}
+#tabbed-widget .tabs-wrap.tagcloud a:hover{
+  color: #FFFFFF;
+  background: red;
+}
+
+
+/*文章底部推荐产品*/
+.sbox-b{
+  /*border: 1px solid #32b0ea;*/
+  max-width: 1200px;
+  margin:0 auto;
+  overflow: hidden;
+}
+.sbox-b>div:first-child{
+  display: none;
+  width: 100%;
+  background-color: #32b0ea;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 22px;
+    color: white;
+}
+.sbox-b>.sbox-product{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    padding: 16px 12px;
+    border: 1px dashed #c5c0c0;
+    border-right: 0px;
+}
+.sbox-b>.sbox-product:last-child{
+    
+    border-right: 1px dashed #c5c0c0;
+}
+.sbox-b>.sbox-product>a{
+  display: block;
+    width: 100%;
+    overflow: hidden;
+    color: #9e9c97;
+}
+.sbox-product-left{
+  width: 40%;
+    float: left;
+    border: 1px solid #afabab;
+}
+.sbox-product-right{
+  width: 60%;
+    float: right;
+    padding-left: 14px;
+}
+.sbox-product-right>.title{
+  padding-top: 10px;
+    color: #e66383;
+}
+.sbox-product-right>.instru{
+  padding-top: 5px;
+    padding-bottom: 7px;
+}
+.sbox-product-right>.money{
+  font-size: 13px;
+}
+
+
+@media (min-width: 320px) and (max-width: 414px) {
+
+  /*健康知识*/
+  .post-content{
+    height: 100px;
+      overflow: hidden;
+  }
+  .post-item{
+      width: 100%;
+      padding: 14px;
+  }
+  #left-box{
+      float: none;
+      width: 100%;
+  }
+  #right-box{
+      display: none;
+  }
+  .c{
+      width: 100%;
+  }
+
+  /*健康知识*/
+  .post-content{
+      height: 100%;
+      overflow: hidden;
+  }
+  .post-content table>tbody>tr>td:first-child {
+    width: 18%;
+    text-align: center;
+  }
+  .post-item{
+      width: 100%;
+      padding: 14px;
+
+      padding: 0px;
+      border: 0px;
+      box-shadow: 0 0 5px #ffffff;
+  }
+  #left-box{
+      float: none;
+      width: 100%;
+  }
+  #right-box{
+      display: none;
+  }
+  .c{
+      width: 100%;
+  }
+
+  .sbox-b{
+    padding: 0 14px;
+  }
+
+  .sbox-b>.sbox-product {
+    width: 100%;
+    border: 1px solid #c5c0c0;
+    border-bottom: 0px;
+  }
+  .sbox-b>.sbox-product:last-child {
+      border: 1px solid #c5c0c0;
+  }
+}
+
+
+@media (min-width: 414px) and (max-width: 765px) {
+
+	/*健康知识*/
+	.post-content{
+		height: 100px;
+    	overflow: hidden;
+	}
+  .post-item{
+      width: 100%;
+      padding: 14px;
+  }
+  #left-box{
+      float: none;
+      width: 100%;
+  }
+  #right-box{
+      display: none;
+  }
+  .c{
+      width: 100%;
+  }
+
+  /*健康知识*/
+  .post-content{
+      height: 100%;
+      overflow: hidden;
+  }
+  .post-content table>tbody>tr>td:first-child {
+      width: 18%;
+      text-align: center;
+  }
+  .post-item{
+      width: 100%;
+      padding: 14px;
+
+      padding: 0px;
+      border: 0px;
+      box-shadow: 0 0 5px #ffffff;
+  }
+  #left-box{
+      float: none;
+      width: 100%;
+  }
+  #right-box{
+      display: none;
+  }
+  .c{
+      width: 100%;
+  }
+
+  .sbox-b{
+    padding: 0 14px;
+  }
+
+  .sbox-b>.sbox-product {
+    width: 100%;
+    border: 1px solid #c5c0c0;
+    border-bottom: 0px;
+  }
+  .sbox-b>.sbox-product:last-child {
+      border: 1px solid #c5c0c0;
+  }
+}
